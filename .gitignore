@@ -1,0 +1,38 @@
+# Composer
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+composer.phar
+# vendor/
+
+# Emacs
+\#*#
+*~
+
+# Apple
+.DS_Store
+
+# Vagrant
+.vagrant/
+
+
+# credentials and sensitive files
+credentials.inc.php
+
+# test note
+
+# Jekyll
+_site
+Gemfile.lock
+test/dest
+*.gem
+pkg/
+*.swp
+*~
+.bundle/
+bbin/
+gh-pages/
+site/_site/
+coverage
+.ruby-version
+.sass-cache
+
+# Sensitive data

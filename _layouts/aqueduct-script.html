@@ -1,0 +1,27 @@
+{% include header.html %}
+
+<div class="" style="background-color: #fff;padding:40px 0 48px 0;min-height: 740px;">
+  <div class="container lg-font col-lg-12">
+
+    <h2>{{ page.rule_id }}.sh 
+    </h2>
+
+      <div>
+        <p>(via the Fedora Aqueduct Project)</p>
+        {{ content }}
+
+
+        <h3 style="border-bottom:1px solid #ddd;margin:30px 0 8px 0;">Associated with Identifiers</h3>
+        <ul>
+        	<li>ident: <a href="http://govready.org/{{ page.ident }}"/>{{ page.ident }}</a></li>
+        	<li>rule_id: {{ page.rule_id }} </li>
+        </ul>
+
+      </div>
+
+  </div>
+</div>
+
+
+
+{% include footer.html %}
