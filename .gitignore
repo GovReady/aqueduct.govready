@@ -36,3 +36,6 @@ coverage
 .sass-cache
 
 # Sensitive data
+
+# Aqueduct build files
+downloads/aqueduct
